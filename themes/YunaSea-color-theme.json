@@ -11,7 +11,7 @@
     "statusBar.background": "#192323",
     "statusBar.foreground": "#d8ccb6",
     "statusBar.noFolderBackground": "#c48d3f", // 폴더 안 열었을 때
-    "statusBar.debuggingBackground": "#fdc0c7",
+    "statusBar.debuggingBackground": "#c48d3f",
 
     "window.activeBorder": "#141d1d",
     "window.inactiveBorder": "#2a3a3a",
