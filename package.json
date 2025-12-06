@@ -12,7 +12,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "animal-crossing-color-theme",
+        "label": "Animal-crossing-color-theme",
         "uiTheme": "vs-dark",
         "path": "./themes/YunaSea-color-theme.json"
       }
