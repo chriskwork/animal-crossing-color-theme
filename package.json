@@ -1,7 +1,7 @@
 {
   "name": "animal-crossing-color-theme",
   "displayName": "Animal Crossing Color Theme",
-  "description": "",
+  "description": "YunaSea",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.106.1"
@@ -12,7 +12,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "YunaSea",
+        "label": "animal-crossing-color-theme",
         "uiTheme": "vs-dark",
         "path": "./themes/YunaSea-color-theme.json"
       }
