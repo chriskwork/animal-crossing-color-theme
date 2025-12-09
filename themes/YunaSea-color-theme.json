@@ -64,130 +64,132 @@
   },
   "tokenColors": [
     {
-    "name": "Dart/Flutter - Keywords (async, await, class, extends, etc)",
-    "scope": [
-      "keyword.control.dart",
-      "storage.type.dart",
-      "storage.modifier.dart"
-    ],
-    "settings": {
-      "foreground": "#81f1f7"
-    }
-  },
-  {
-    "name": "Dart - Class names & Types",
-    "scope": [
-      "entity.name.type.class.dart",
-      "support.class.dart",
-      "entity.name.type.dart"
-    ],
-    "settings": {
-      "foreground": "#c5a5b8"
-    }
-  },
-  {
-    "name": "Dart - Functions & Methods",
-    "scope": [
-      "entity.name.function.dart",
-      "support.function.dart"
-    ],
-    "settings": {
-      "foreground": "#9dffb0"
-    }
-  },
-  {
-    "name": "Flutter - Widgets (StatelessWidget, Container, etc)",
-    "scope": [
-      "support.class.dart",
-      "variable.other.class.dart"
-    ],
-    "settings": {
-      "foreground": "#56ba5a", // 풀 그린
-      // "fontStyle": "bold" // 위젯은 볼드로 강조
-    }
-  },
-  {
-    "name": "Dart - Strings",
-    "scope": [
-      "string.interpolated.dart",
-      "string.quoted.double.dart",
-      "string.quoted.single.dart"
-    ],
-    "settings": {
-      "foreground": "#fff563" // 밝은 노랑
-    }
-  },
-  {
-    "name": "Dart - String interpolation ${}",
-    "scope": [
-      "variable.parameter.dart",
-      "meta.embedded.dart"
-    ],
-    "settings": {
-      "foreground": "#fdc0c7" // 핑크
-    }
-  },
-  {
-    "name": "Dart - Numbers & Constants",
-    "scope": [
-      "constant.numeric.dart",
-      "constant.language.dart"
-    ],
-    "settings": {
-      "foreground": "#febdc3" // 파스텔 핑크
-    }
-  },
-  {
-    "name": "Dart - Annotations (@override, @required)",
-    "scope": [
-      "storage.type.annotation.dart",
-      "meta.declaration.dart"
-    ],
-    "settings": {
-      "foreground": "#0cc6b8", // 청록색
-    }
-  },
-  {
-    "name": "Dart - Properties & Variables",
-    "scope": [
-      "variable.other.dart",
-      "variable.parameter.function.dart"
-    ],
-    "settings": {
-      "foreground": "#fffffa" // 크림 화이트 (다크용) 또는 기본색
-    }
-  },
-  {
-    "name": "Dart - this, super",
-    "scope": [
-      "variable.language.dart"
-    ],
-    "settings": {
-      "foreground": "#ff7975", 
+      "name": "Dart/Flutter - Keywords (async, await, class, extends, etc)",
+      "scope": ["keyword.control.dart", "storage.type.dart", "storage.modifier.dart"],
+      "settings": {
+        "foreground": "#81f1f7"
+      }
+    },
+    {
+      "name": "Dart - Class names & Types",
+      "scope": ["entity.name.type.class.dart", "support.class.dart", "entity.name.type.dart"],
+      "settings": {
+        "foreground": "#c5a5b8"
+      }
+    },
+    {
+      "name": "Dart - Functions & Methods",
+      "scope": ["entity.name.function.dart", "support.function.dart"],
+      "settings": {
+        "foreground": "#9dffb0"
+      }
+    },
+    {
+      "name": "Flutter - Widgets (StatelessWidget, Container, etc)",
+      "scope": ["support.class.dart", "variable.other.class.dart"],
+      "settings": {
+        "foreground": "#56ba5a" // 풀 그린
+        // "fontStyle": "bold" // 위젯은 볼드로 강조
+      }
+    },
+    {
+      "name": "Dart - Strings",
+      "scope": ["string.interpolated.dart", "string.quoted.double.dart", "string.quoted.single.dart"],
+      "settings": {
+        "foreground": "#fff563" // 밝은 노랑
+      }
+    },
+    {
+      "name": "Dart - String interpolation ${}",
+      "scope": ["variable.parameter.dart", "meta.embedded.dart"],
+      "settings": {
+        "foreground": "#fdc0c7" // 핑크
+      }
+    },
+    {
+      "name": "Dart - Numbers & Constants",
+      "scope": ["constant.numeric.dart", "constant.language.dart"],
+      "settings": {
+        "foreground": "#febdc3" // 파스텔 핑크
+      }
+    },
+    {
+      "name": "Dart - Annotations (@override, @required)",
+      "scope": ["storage.type.annotation.dart", "meta.declaration.dart"],
+      "settings": {
+        "foreground": "#0cc6b8" // 청록색
+      }
+    },
+    {
+      "name": "Dart - Properties & Variables",
+      "scope": ["variable.other.dart", "variable.parameter.function.dart"],
+      "settings": {
+        "foreground": "#fffffa" // 크림 화이트 (다크용) 또는 기본색
+      }
+    },
+    {
+      "name": "Dart - this, super",
+      "scope": ["variable.language.dart"],
+      "settings": {
+        "foreground": "#ff7975"
+      }
+    },
 
-    }
-  },
-  {
-    "name": "Comments",
-    "scope": [
-      "comment.line.dart",
-      "comment.block.dart"
-    ],
-    "settings": {
-      "foreground": "#9e8364", // 베이지
+    // XML
 
-    }
-  },
-  {
-    "name": "Dart - Imports",
-    "scope": [
-      "meta.declaration.dart keyword.other.import.dart"
-    ],
-    "settings": {
-      "foreground": "#c48d3f" // 골드 브라운
-    }
-  },
-  
+    {
+      "name": "XML - Tags",
+      "scope": ["entity.name.tag.xml", "entity.name.tag.localname.xml"],
+      "settings": {
+        "foreground": "#0cc6b8" // green blue
+      }
+    },
+    {
+      "name": "XML - Attributes",
+      "scope": ["entity.other.attribute-name.xml", "entity.other.attribute-name.localname.xml"],
+      "settings": {
+        "foreground": "#81f1f7" // 스카이블루
+      }
+    },
+    {
+      "name": "XML - Attribute values",
+      "scope": ["string.quoted.double.xml", "string.quoted.single.xml"],
+      "settings": {
+        "foreground": "#9dffb0" // mint green
+      }
+    },
+    {
+      "name": "XML - Tag brackets < >",
+      "scope": ["punctuation.definition.tag.xml"],
+      "settings": {
+        "foreground": "#c5a5b8" // 라벤더
+      }
+    },
+    {
+      "name": "XML - Comments",
+      "scope": ["comment.block.xml"],
+      "settings": {
+        "foreground": "#9e8364", // 베이지
+        "fontStyle": "italic"
+      }
+    },
+
+    // Commons
+    {
+      "name": "Comments",
+      "scope": ["comment.line.dart", "comment.block.dart"],
+      "settings": {
+        "foreground": "#9e8364" // 베이지
+      }
+    },
+    {
+      "name": "Dart - Imports",
+      "scope": ["meta.declaration.dart keyword.other.import.dart"],
+      "settings": {
+        "foreground": "#c48d3f" // 골드 브라운
+      }
+    },
+
     {
       "name": "Comment",
       "scope": ["comment", "punctuation.definition.comment"],
