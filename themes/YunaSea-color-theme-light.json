@@ -1,0 +1,248 @@
+{
+  "name": "ACNH Light",
+  "type": "light",
+  "colors": {
+
+    "editor.background": "#f8f4e0",
+    "editor.foreground": "#2a3a2a",
+    
+
+    "sideBar.background": "#ede9d5",
+    "sideBar.foreground": "#3a4a3a",
+    "sideBar.border": "#d8d4c0",
+    
+
+    "activityBar.background": "#e3dfcb",
+    "activityBar.foreground": "#1c7c24",
+    "activityBar.activeBorder": "#0cc6b8",
+    "activityBar.inactiveForeground": "#7a904d",
+    
+
+    "statusBar.background": "#56ba5a",
+    "statusBar.foreground": "#ffffff",
+    "statusBar.noFolderBackground": "#c48d3f",
+    "statusBar.debuggingBackground": "#fdc0c7",
+    
+
+    "tab.activeBackground": "#f8f4e0",
+    "tab.activeForeground": "#2a3a2a",
+    "tab.activeBorder": "#0cc6b8",
+    "tab.inactiveBackground": "#e3dfcb",
+    "tab.inactiveForeground": "#7a904d",
+    "tab.border": "#d8d4c0",
+    
+ 
+    "list.activeSelectionBackground": "#c5e8ca",
+    "list.activeSelectionForeground": "#1c7c24",
+    "list.inactiveSelectionBackground": "#dddac6",
+    "list.hoverBackground": "#e5f5e7",
+    "list.hoverForeground": "#1c7c24",
+    
+    "editorIndentGuide.background": "#d8d4c0",
+    "editorIndentGuide.activeBackground": "#56ba5a",
+    
+  
+    "editorHoverWidget.background": "#ffffff",
+    "editorHoverWidget.border": "#0cc6b8",
+    "editorHoverWidget.foreground": "#2a3a2a",
+    
+   
+    "titleBar.activeBackground": "#e3dfcb",
+    "titleBar.activeForeground": "#1c7c24",
+    "titleBar.inactiveBackground": "#ede9d5",
+    "titleBar.inactiveForeground": "#7a904d",
+    
+    
+    "terminal.background": "#f8f4e0",
+    "terminal.foreground": "#2a3a2a",
+    "terminal.ansiGreen": "#1c7c24",
+    "terminal.ansiCyan": "#0cc6b8",
+    "terminal.ansiYellow": "#c48d3f",
+    
+  
+    "input.background": "#ffffff",
+    "input.foreground": "#2a3a2a",
+    "input.border": "#d8d4c0",
+    "dropdown.background": "#ffffff",
+    "dropdown.foreground": "#2a3a2a",
+    "button.background": "#56ba5a",
+    "button.foreground": "#ffffff"
+  },
+  
+  "tokenColors": [
+    {
+      "name": "Dart/Flutter - Keywords",
+      "scope": [
+        "keyword.control.dart",
+        "storage.type.dart",
+        "storage.modifier.dart"
+      ],
+      "settings": {
+        "foreground": "#0cc6b8"
+      }
+    },
+    {
+      "name": "Dart - Class names & Types",
+      "scope": [
+        "entity.name.type.class.dart",
+        "support.class.dart",
+        "entity.name.type.dart"
+      ],
+      "settings": {
+        "foreground": "#8b5a9e"
+      }
+    },
+    {
+      "name": "Dart - Functions & Methods",
+      "scope": [
+        "entity.name.function.dart",
+        "support.function.dart"
+      ],
+      "settings": {
+        "foreground": "#1c7c24"
+      }
+    },
+    {
+      "name": "Flutter - Widgets",
+      "scope": [
+        "support.class.dart",
+        "variable.other.class.dart"
+      ],
+      "settings": {
+        "foreground": "#1c7c24",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Dart - Strings",
+      "scope": [
+        "string.interpolated.dart",
+        "string.quoted.double.dart",
+        "string.quoted.single.dart"
+      ],
+      "settings": {
+        "foreground": "#c48d3f"
+      }
+    },
+    {
+      "name": "Dart - String interpolation",
+      "scope": [
+        "variable.parameter.dart",
+        "meta.embedded.dart"
+      ],
+      "settings": {
+        "foreground": "#d4749e"
+      }
+    },
+    {
+      "name": "Dart - Numbers & Constants",
+      "scope": [
+        "constant.numeric.dart",
+        "constant.language.dart"
+      ],
+      "settings": {
+        "foreground": "#d4749e"
+      }
+    },
+    {
+      "name": "Dart - Annotations",
+      "scope": [
+        "storage.type.annotation.dart",
+        "meta.declaration.dart"
+      ],
+      "settings": {
+        "foreground": "#0cc6b8",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Dart - Properties & Variables",
+      "scope": [
+        "variable.other.dart",
+        "variable.parameter.function.dart"
+      ],
+      "settings": {
+        "foreground": "#2a3a2a"
+      }
+    },
+    {
+      "name": "Dart - this, super",
+      "scope": [
+        "variable.language.dart"
+      ],
+      "settings": {
+        "foreground": "#0cc6b8",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Comments",
+      "scope": [
+        "comment.line.dart",
+        "comment.block.dart"
+      ],
+      "settings": {
+        "foreground": "#7a904d",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Dart - Imports",
+      "scope": [
+        "meta.declaration.dart keyword.other.import.dart"
+      ],
+      "settings": {
+        "foreground": "#9e8364"
+      }
+    },
+    {
+      "name": "XML - Tags",
+      "scope": [
+        "entity.name.tag.xml",
+        "entity.name.tag.localname.xml"
+      ],
+      "settings": {
+        "foreground": "#1c7c24"
+      }
+    },
+    {
+      "name": "XML - Attributes",
+      "scope": [
+        "entity.other.attribute-name.xml",
+        "entity.other.attribute-name.localname.xml"
+      ],
+      "settings": {
+        "foreground": "#0cc6b8"
+      }
+    },
+    {
+      "name": "XML - Attribute values",
+      "scope": [
+        "string.quoted.double.xml",
+        "string.quoted.single.xml"
+      ],
+      "settings": {
+        "foreground": "#c48d3f"
+      }
+    },
+    {
+      "name": "XML - Tag brackets",
+      "scope": [
+        "punctuation.definition.tag.xml"
+      ],
+      "settings": {
+        "foreground": "#8b5a9e"
+      }
+    },
+    {
+      "name": "XML - Comments",
+      "scope": [
+        "comment.block.xml"
+      ],
+      "settings": {
+        "foreground": "#7a904d",
+        "fontStyle": "italic"
+      }
+    }
+  ]
+}

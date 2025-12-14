@@ -12,9 +12,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Animal-crossing-color-theme",
+        "label": "ACNH Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/YunaSea-color-theme.json"
+      },
+      {
+        "label": "ACNH Light",
+        "uiTheme": "vs",
+        "path": "./themes/YunaSea-color-theme-light.json"
       }
     ]
   }
