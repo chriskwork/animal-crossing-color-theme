@@ -176,13 +176,21 @@
       }
     },
     {
-      "name": "Comments",
+      "name": "Comments  - All Languages",
       "scope": [
-        "comment.line.dart",
-        "comment.block.dart"
+        "comment",
+        "comment.line",
+        "comment.block",
+        "comment.line.double-slash.js",
+        "comment.block.js",
+        "comment.block.html",
+        "comment.line.double-slash.dart",
+        "comment.block.dart",
+        "comment.block.documentation",
+        "punctuation.definition.comment"
       ],
       "settings": {
-        "foreground": "#7a904d",
+        "foreground": "#b0b0b0",
         "fontStyle": "italic"
       }
     },
@@ -243,6 +251,145 @@
         "foreground": "#7a904d",
         "fontStyle": "italic"
       }
-    }
+    },
+
+{
+  "name": "HTML - Tags",
+  "scope": [
+    "entity.name.tag.html",
+    "meta.tag.html"
+  ],
+  "settings": {
+    "foreground": "#1c7c24"
+  }
+},
+{
+  "name": "HTML - Attributes",
+  "scope": [
+    "entity.other.attribute-name.html"
+  ],
+  "settings": {
+    "foreground": "#3e82c7"
+  }
+},
+{
+  "name": "HTML - Attribute values",
+  "scope": [
+    "string.quoted.double.html",
+    "string.quoted.single.html"
+  ],
+  "settings": {
+    "foreground": "#b8552a"
+  }
+},
+
+
+{
+  "name": "CSS - Properties",
+  "scope": [
+    "support.type.property-name.css",
+    "meta.property-name.css"
+  ],
+  "settings": {
+    "foreground": "#3e82c7" 
+  }
+},
+{
+  "name": "CSS - Values",
+  "scope": [
+    "support.constant.property-value.css",
+    "meta.property-value.css"
+  ],
+  "settings": {
+    "foreground": "#b8552a" 
+  }
+},
+{
+  "name": "CSS - Selectors",
+  "scope": [
+    "entity.name.tag.css",
+    "entity.other.attribute-name.class.css",
+    "entity.other.attribute-name.id.css"
+  ],
+  "settings": {
+    "foreground": "#1c7c24" 
+  }
+},
+{
+  "name": "CSS - Units",
+  "scope": [
+    "keyword.other.unit.css"
+  ],
+  "settings": {
+    "foreground": "#d4749e" 
+  }
+},
+
+
+{
+  "name": "JS - Keywords",
+  "scope": [
+    "keyword.control.js",
+    "keyword.operator.js",
+    "storage.type.js"
+  ],
+  "settings": {
+    "foreground": "#3e82c7" 
+  }
+},
+{
+  "name": "JS - Functions",
+  "scope": [
+    "entity.name.function.js",
+    "support.function.js"
+  ],
+  "settings": {
+    "foreground": "#1c7c24" 
+  }
+},
+{
+  "name": "JS - Strings",
+  "scope": [
+    "string.quoted.single.js",
+    "string.quoted.double.js",
+    "string.template.js"
+  ],
+  "settings": {
+    "foreground": "#b8552a" 
+  }
+},
+{
+  "name": "JS - Numbers",
+  "scope": [
+    "constant.numeric.js"
+  ],
+  "settings": {
+    "foreground": "#d4749e"
+  }
+},
+{
+  "name": "JS - Variables & Objects",
+  "scope": [
+    "variable.other.object.js",
+    "variable.other.readwrite.js"
+  ],
+  "settings": {
+    "foreground": "#2a3a2a" 
+  }
+},
+{
+  "name": "JS - this, console",
+  "scope": [
+    "variable.language.js",
+    "support.class.console.js"
+  ],
+  "settings": {
+    "foreground": "#0cc6b8", 
+    
+  }
+}
+
+    
   ]
 }
+
